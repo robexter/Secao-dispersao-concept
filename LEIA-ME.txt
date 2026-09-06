@@ -1,0 +1,16 @@
+SECÃO DISPERSÃO CONCEPT — PWA
+
+Arquivos:
+- index.html
+- manifest.json
+- sw.js
+- icons/icon-192.png
+- icons/icon-512.png
+- icons/icon-180.png
+
+Como publicar no GitHub Pages:
+1. Envie todos os arquivos para a raiz do repositório (mantendo a pasta /icons).
+2. Faça commit/push.
+3. Abra a página no celular ou Chrome/Edge.
+4. O botão “📲 Instalar app” aparecerá quando o navegador permitir instalação.
+5. O nome exibido no celular será “Secao dispersao concept”.
