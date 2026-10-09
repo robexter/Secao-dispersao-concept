@@ -263,7 +263,43 @@ sistema_dispersao: {
   <ul><li>melhora a distribuição radial da carga;</li><li>reduz regiões localizadas de excesso de hidrocarboneto;</li><li>favorece vaporização rápida;</li><li>reduz tendência a craqueamento térmico localizado e coque por má distribuição.</li></ul>
   <h3>Fórmula útil</h3>
   <div class="eq">d<sub>32</sub> = Σ(nᵢ·dᵢ³) / Σ(nᵢ·dᵢ²)</div>
-  <p>O diâmetro médio de Sauter (d<sub>32</sub>) relaciona volume de gotas com área superficial. Em geral, melhor atomização → menor d<sub>32</sub>.</p>
+  <p>O diâmetro médio de Sauter (d<sub>32</sub>) relaciona volume de gotas com área superficial. Em geral, melhor atomização → menor d<sub>32</sub>.
+
+O Diâmetro Médio de Sauter (D₃₂) é um parâmetro utilizado para avaliar a qualidade da atomização da carga nos bicos de dispersão do riser.
+Ele representa o diâmetro de uma gota que possui a mesma relação entre volume e área superficial do conjunto de gotas pulverizadas.
+Na prática:
+
+- Menor SMD: gotas menores, maior área de contato com o catalisador e vaporização mais rápida.
+- Maior SMD: gotas maiores, menor área de contato por volume de carga e vaporização mais lenta.
+
+Aplicação no FCC — U-39
+
+Uma boa atomização favorece o contato entre a carga (RV + GOP) e o catalisador quente, proporcionando vaporização mais rápida e melhor distribuição da carga no riser.
+Gotas excessivamente grandes podem apresentar vaporização incompleta, favorecendo a formação localizada de coque e prejudicando a eficiência do craqueamento.
+### Fórmula do Diâmetro Médio de Sauter (SMD ou D₃₂)
+
+\\boxed{D_{32}=\\frac{\\sum_{i=1}^{k}n_i\\,d_i^3}{\\sum_{i=1}^{k}n_i\\,d_i^2}}
+
+Onde:
+
+* = Diâmetro Médio de Sauter (µm).
+
+* = Quantidade de gotas de determinado diâmetro.
+
+* = Diâmetro das gotas (µm).
+
+### Forma simplificada
+
+\\boxed{D_{32}=\\frac{6V_{\\text{total}}}{A_{\\text{total}}}}
+
+* = Volume total das gotas.
+
+* = Área superficial total das gotas.
+
+Essa relação considera gotas esféricas.
+Aplicação no FCC: para um mesmo volume de carga pulverizada, quanto menor o , maior será a área superficial disponível para transferência de calor, favorecendo a vaporização da carga no riser.
+
+Conceito-chave: quanto menor o SMD, mais fina é a atomização. Entretanto, a eficiência da dispersão também depende da penetração das gotas, da distribuição da carga e das condições operacionais dos bicos. . </p>
   <div class="caution">O vapor de dispersão não “craqueia” a carga por si só; sua função principal nessa etapa é hidráulica/termodinâmica e de atomização.</div>`
 },
 pic39039: {
